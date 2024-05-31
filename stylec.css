@@ -58,29 +58,28 @@ footer {
     width: 100%;
 }
 
-/* Estilos para el formulario de contacto */
-#contact form {
-    max-width: 500px; /* Ajusta este valor para cambiar el ancho del formulario */
+#con form {
+    max-width: 500px;
     margin: auto;
 }
 
-#contact label {
+#con label {
     display: block;
     margin-top: 10px;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact textarea {
-    width: 100%; /* Ajusta el ancho de los campos de entrada */
+#con input[type="text"],
+#con input[type="email"],
+#con input[type="tel"],
+#con textarea {
+    width: 100%; 
     padding: 10px;
     margin-top: 5px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 
-#contact button {
+#con button {
     background-color: #1abc9c;
     color: white;
     border: none;
@@ -89,7 +88,7 @@ footer {
     cursor: pointer;
     margin-top: 10px;
 }
-.inspirational-image {
+.imatit {
     max-width: 100%;
     height: auto;
     display: block;

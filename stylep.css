@@ -45,13 +45,13 @@ nav ul li a {
     font-size: 1em;
 }
 
-.product-image img {
+.imapro {
     max-width: 50%;
     height: auto; 
     display: block;
     margin: 0 auto;
 }
-.inspirational-image {
+.imatit {
     display: block;
     margin: 0 auto;
     max-width: 100%;

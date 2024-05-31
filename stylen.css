@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,7 +11,6 @@ header, nav, main, footer {
     padding: 20px;
 }
 
-/* Estilos para el encabezado h1 */
 h1 {
     font-size: 3em;
     color: transparent;
@@ -24,7 +22,6 @@ h1 {
     text-shadow: 2px 2px 4px #000000;
 }
 
-/* Estilos para la barra de navegación */
 nav {
     background-color: #f4acb7;
     text-align: right;
@@ -48,14 +45,12 @@ nav ul li a {
     font-size: 1em;
 }
 
-/* Estilos para el contenido principal */
 main {
     background-color: #fff;
     padding: 20px;
 }
 
-/* Estilos para las secciones */
-#about-us {
+#nos {
     text-align: center;
     padding: 40px;
     border: 1px solid #ddd;
@@ -63,30 +58,26 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para los títulos de secciones */
-#about-us h2 {
+#nos h2 {
     font-size: 24px;
     font-weight: bold;
     color: #333;
 }
 
-/* Estilos para los párrafos de secciones */
-#about-us p {
+#nos p {
     font-size: 16px;
     color: #666;
 }
 
-/* Estilos para las listas de secciones */
-#about-us ul {
+#nos ul {
     list-style: none;
     padding: 0;
 }
 
-#about-us li {
+#nos li {
     padding: 5px 0;
 }
 
-/* Estilos para el pie de página */
 footer {
     background-color: #ff7f50;
     color: #fff;
@@ -94,7 +85,7 @@ footer {
     position: static;
     width: 100%;
 }
-.inspirational-image {
+.imatit {
     max-width: 90%;
     height: auto;
     display: block;
