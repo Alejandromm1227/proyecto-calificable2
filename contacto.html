@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylec.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <img src="https://th.bing.com/th/id/R.b81c6600277a60d56976b3467c7bb53a?rik=NftHkggeoc1hqQ&pid=ImgRaw&r=0" alt="Imagen Inspiradora" class="inspirational-image">
+        <h1>Contacto</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fa fa-fw fa-home"></i> Inicio</a></li>
+            <li><a href="servicios.html"><i class="fa fa-fw fa-briefcase"></i> Servicios</a></li>
+            <li><a href="productos.html"><i class="fa fa-fw fa-shopping-cart"></i> Productos</a></li>
+            <li><a href="nosotros.html"><i class="fa fa-fw fa-users"></i> Nosotros</a></li>
+            <li><a href="contacto.html"><i class="fa fa-fw fa-envelope"></i> Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o comentario? ¡Contáctanos!</p>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono"  required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© La Salud Mental Es Lo Más Importante</p>
+    </footer>
+    <script src="java.js"></script>
+</body>
+</html>

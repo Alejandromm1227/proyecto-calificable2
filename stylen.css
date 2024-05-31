@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header, nav, main, footer {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado h1 */
+h1 {
+    font-size: 3em;
+    color: transparent;
+    background-image: linear-gradient(to right, #6dd5ed, #2193b0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #f4acb7;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+/* Estilos para el contenido principal */
+main {
+    background-color: #fff;
+    padding: 20px;
+}
+
+/* Estilos para las secciones */
+#about-us {
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los títulos de secciones */
+#about-us h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos para los párrafos de secciones */
+#about-us p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Estilos para las listas de secciones */
+#about-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about-us li {
+    padding: 5px 0;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #ff7f50;
+    color: #fff;
+    text-align: center;
+    position: static;
+    width: 100%;
+}
+.inspirational-image {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

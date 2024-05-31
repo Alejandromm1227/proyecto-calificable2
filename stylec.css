@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header, nav, main, footer {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    color: transparent;
+    background-image: linear-gradient(to right, #6dd5ed, #2193b0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+nav {
+    background-color: #f4acb7;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin : 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer {
+    background-color: #ff7f50;
+    color: #fff;
+    text-align: center;
+    position: static;
+    width: 100%;
+}
+
+/* Estilos para el formulario de contacto */
+#contact form {
+    max-width: 500px; /* Ajusta este valor para cambiar el ancho del formulario */
+    margin: auto;
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+    width: 100%; /* Ajusta el ancho de los campos de entrada */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contact button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.inspirational-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
